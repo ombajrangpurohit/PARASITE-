@@ -1,0 +1,20 @@
+ body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #2c3e50; /* Dark blue background */
+            cursor: none; /* Hide the default cursor */
+        }
+        canvas {
+            display: block;
+        }
+        .info {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            color: #cd0fe7;
+            font-family: 'Arial', sans-serif;
+            font-size: 16px;
+            background-color: rgba(0,0,0,0.3);
+            padding: 10px 15px;
+            border-radius: 8px;
+        }
